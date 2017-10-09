@@ -1,0 +1,133 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 140px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover
+}
+
+.App-header {
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    color: white;
+    box-shadow: 0 3px 12px rgba(11, 76, 114, 0.16), 0 3px 12px rgba(30, 64, 116, 0.23);
+    
+}
+.links-container{
+    margin: 0 auto;
+    bottom:0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
+.icon {
+    width: 26px;
+    transition: opacity 2s;
+    
+}
+.icon:hover{
+    filter: opacity(50%);
+    
+}
+.invert {
+    filter: invert(100%)
+}
+.title {
+    color: rgba(0,0,0,.87);
+    font-weight: 400
+}
+
+.App-title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+    font-weight: 500
+}
+
+.App-subtitle {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 8px
+}
+
+.intro {
+    font-size: large;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 860px;
+    padding: 20px
+
+}
+.projects-container {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(11, 76, 114, 0.16), 0 3px 12px rgba(30, 64, 116, 0.23);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+}
+.card-media {
+    max-width: 100%;
+    
+
+}
+.card-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-bottom: 0
+}
+.card-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1
+}
+.card-actions {
+    margin: 20px;
+    text-align: right;
+
+
+}
+.card-actions a {
+    margin: 0 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3a7bd5;
+    font-weight: 500;
+    align-self: flex-end
+}
+.footer-container {
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 20px auto 0;
+    padding: 5px 20px;
+}
+.footer-container p {
+    margin: 0;
+    color: white
+}
