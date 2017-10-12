@@ -24,7 +24,7 @@ class Projects extends Component{
                     Sadly this server is no longer available.",
                     link: null,
                     imgpath: 'springweb-small.jpg',
-                    github: 'https://github.com/MauroLuyten/maintenancelogger'
+                    github: 'https://github.com/MauroLuyten/Spring-WebApp-Purchases'
                 },
                 {
                     title: 'This Portfolio',
@@ -33,7 +33,7 @@ class Projects extends Component{
                     I already have experience with VueJs and I thought it'd be a good idea to get familiar with the most popular front-end framework.`,
                     link: null,
                     imgpath: 'logo.svg',
-                    github: 'https://github.com/MauroLuyten/maintenancelogger'
+                    github: 'https://github.com/MauroLuyten/portfolio'
                 },
                 {
                     title: 'More to come!',
