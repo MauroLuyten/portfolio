@@ -1,9 +1,10 @@
 import React,{Component} from 'react'
+import Resume from './assets/Resume.pdf'
 
 
 class Header extends Component {
     openResume() {
-        window.location.href = require('./assets/Resume.pdf')
+        window.location.href = Resume
     }
     render() {
         return (
