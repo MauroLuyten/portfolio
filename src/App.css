@@ -34,15 +34,36 @@
 }
 .icon {
     width: 26px;
-    transition: opacity 2s;
     
 }
 .icon:hover{
     filter: opacity(50%);
-    
+    transition: 0.2s all
 }
 .invert {
     filter: invert(100%)
+}
+#resume-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 20px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 2px;
+
+}
+#resume-button a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit
+}
+#resume-button:hover {
+    color: #0A5A78;
+    border-color: #0A5A78;
+    transition: 0.2s all;
+    cursor: pointer;
 }
 .title {
     color: rgba(0,0,0,.87);

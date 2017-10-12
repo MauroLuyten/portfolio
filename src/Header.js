@@ -2,9 +2,13 @@ import React,{Component} from 'react'
 
 
 class Header extends Component {
+    openResume() {
+        window.location.href = require('./assets/Resume.pdf')
+    }
     render() {
         return (
-            <header className="App-header">
+        <header className="App-header">
+            <div id="resume-button" onClick={this.openResume}><a href="#">Resume</a></div>
             <img src={require('./assets/avatar3.jpg')} className="App-logo" alt="logo"/>
             <h1 className="App-title">Mauro Luyten</h1>
             <h3 className="App-subtitle">Computer Science Student</h3>
