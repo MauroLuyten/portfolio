@@ -53,7 +53,7 @@ class Projects extends Component{
                 { this.state.projects.map((project, index) => {
                     return (
                     <div className="card" key={index}>
-                        <img className="card-media" src={require(`../src/${project.imgpath}`)}></img>
+                        <img className="card-media" src={require(`../src/assets/${project.imgpath}`)}></img>
                         <p className="card-title">{project.title}</p>
                         <p className="card-text">{project.description}</p>
                         <section className="card-actions">

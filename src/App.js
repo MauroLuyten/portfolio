@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import avatar from './avatar3.jpg';
-import github from './github.svg'
-import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
-import gmail from './gmail.svg'
+import avatar from './assets/avatar3.jpg';
+import github from './assets/github.svg'
+import linkedin from './assets/linkedin.svg'
+import twitter from './assets/twitter.svg'
+import gmail from './assets/gmail.svg'
 import Projects from './Projects.js'
 import Footer from './Footer.js'
 import './App.css';
