@@ -8,7 +8,7 @@ class Projects extends Component{
                 {
                     title: 'Maintenance Logger',
                     description: 
-                    "During the summer I built a WebApp with VueJS, Vuetify and Firebase.\
+                    "During the summer of 2017 I started working on a Progressive WebApp with VueJS, Vuetify and Firebase.\
                      Here users can add their vehicle(s) and keep track of their maintenances.\
                      Images are fetched via the Google Search API and it uses Firebase for Authentication, Json storage and Hosting.",
                     imgpath: 'maintenancelogger-wide-small.jpg',
@@ -18,7 +18,7 @@ class Projects extends Component{
                 {
                     title: 'Purchase Keeper',
                     description: 
-                    "Last year we were tasked to build a full-sized WebApp with Spring.\
+                    "During the last year of my Bachelors we were tasked to build a full-sized WebApp with Spring.\
                     Features include Authentication with Spring Security, I18n and an ORM database with JPA.\
                     For this project we also set up our own server including Jenkins for automated Deployment.\
                     Sadly this server is no longer available.",
@@ -35,7 +35,7 @@ class Projects extends Component{
                     imgpath: 'logo.svg',
                     github: 'https://github.com/MauroLuyten/portfolio'
                 },
-                {
+                /*{
                     title: 'More to come!',
                     description: 
                     "More worthy projects will be coming soon!\
@@ -43,7 +43,7 @@ class Projects extends Component{
                     link: null,
                     imgpath: 'logo.svg',
                     github: null
-                },
+                },*/
             ]
         }
     }

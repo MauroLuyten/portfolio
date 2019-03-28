@@ -12,7 +12,7 @@ class Header extends Component {
             <div id="resume-button" onClick={this.openResume}><a href="#">Resume</a></div>
             <img src={require('./assets/avatar3.jpg')} className="App-logo" alt="logo"/>
             <h1 className="App-title">Mauro Luyten</h1>
-            <h3 className="App-subtitle">Computer Science Student</h3>
+            <h3 className="App-subtitle">Software Developer</h3>
             <section className="links-container">
                 <a href="https://github.com/MauroLuyten"><img className="icon invert" src={require('./assets/github.svg')} alt=""/></a>
                 <a href="https://www.linkedin.com/in/MauroLuyten/"><img className="icon invert" src={require('./assets/linkedin.svg')} alt=""/></a>
